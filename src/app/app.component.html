@@ -1,28 +1,26 @@
 
 <div>
-
+  <!-- Navigation Links -->
+  <nav>
+    <div class="logo">Abi Design</div>
+    <div class="separator"></div>
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/about">About</a></li>
+      <li><a routerLink="/portfolio">Portfolio</a></li>
+      <li><a routerLink="/services">Services</a></li>
+      <li><a routerLink="/contact">Contact</a></li>
+      <li><a routerLink="/testimonials">Testimonials</a></li>
+    </ul>
+  </nav>
+  <!-- Content of the current route will be rendered here -->
+  <router-outlet></router-outlet>
 </div>
 
 
  <!-- app.component.html -->
 
 <div class="content">
-    <!-- Navigation Links -->
-<nav>
-  <div class="logo">Architect's Name</div>
-  <div class="separator"></div>
-  <ul>
-    <!-- Use the [pageScroll] directive with the section's ID as the target -->
-    <li><a pageScroll href="#hero" page-scroll-retain-position="true">Home</a></li>
-    <li><a pageScroll href="#about" page-scroll-retain-position="true">About</a></li>
-    <li><a pageScroll href="#portfolio" page-scroll-retain-position="true">Portfolio</a></li>
-    <li><a pageScroll href="#services" page-scroll-retain-position="true">Services</a></li>
-    <li><a pageScroll href="#contact" page-scroll-retain-position="true">Contact</a></li>
-    <li><a pageScroll href="#testimonials" page-scroll-retain-position="true">Testimonials</a></li>
-  </ul>
-</nav>
-    <!-- Content of the current route will be rendered here -->
-    <router-outlet></router-outlet>
   <!-- Your main page content goes here -->
   <!-- For example, <router-outlet></router-outlet> to render components based on routing -->
 

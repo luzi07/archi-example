@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
+import * as fullpage from 'fullpage.js'; // Import fullPage.js module
+
 
 @Component({
   selector: 'app-root',

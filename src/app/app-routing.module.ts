@@ -20,8 +20,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })], // Enable smooth scrolling
+  exports: [RouterModule],
+
 })
 export class AppRoutingModule {
   
