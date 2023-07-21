@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* styles.scss */
+
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Use Google Fonts or other fonts */
+  }
+  
+  /* ... (Other styles for navigation, etc.) */
+  
+  /* Footer Styles */
+  footer {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .social-icon {
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    transition: color 0.2s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ddd;
+  }
+  
+  .logo img {
+    max-width: 100px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .footer-links a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ddd;
+  }
+  

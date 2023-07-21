@@ -1,0 +1,17 @@
+/* portfolio.component.scss */
+
+.portfolio {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  /* Add specific styles for portfolio items, if needed */
+  

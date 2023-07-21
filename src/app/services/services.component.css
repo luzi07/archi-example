@@ -1,0 +1,25 @@
+/* services.component.scss */
+
+.services {
+    background-color: #fff;
+    color: #333;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
